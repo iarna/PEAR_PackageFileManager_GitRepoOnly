@@ -1,5 +1,4 @@
-# gcc coverage testing tool files
-
-*.gcno
-*.gcda
-*.gcov
+.#*
+*~
+DEADJOE
+PEAR_PackageFileManager_GitRepoOnly-*.tgz

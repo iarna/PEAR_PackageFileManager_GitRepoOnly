@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PEAR_PackageFileManager_Gitrepoonly</name>
+ <channel>onlinebuddies.github.com/pear</channel>
+ <summary>A Git repository-only list plugin generator for both
+PEAR_PackageFileManager, and PEAR_PackageFileManager2 classes.</summary>
+ <description>
+It will only include files that are part of the git index-- that is, files
+in the current branch plus files staged for commit.  It simply uses 
+`git ls-files` to get a list of files to package.  If you just want
+files excluded that are in .gitignore or .git/info/exclude, see 
+https://github.com/armen/PEAR_PackageFileManager_Git
+ </description>
+ <lead>
+  <name>Rebecca Turner</name>
+  <user>becca</user>
+  <email>becca@referencethis.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-27</date>
+ <time>17:33:00</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+Initial release.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file name="PEAR/PackageFileManager/Gitrepoonly.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+Initial release.
+   </notes>
+  </release>
+</changelog>
+</package>
